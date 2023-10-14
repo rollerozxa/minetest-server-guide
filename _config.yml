@@ -1,0 +1,23 @@
+title: Minetest Server Hosting Guide
+description: "A guide detailing how to set up a Minetest server, whether it be simply playing with friends or setting up a permanent server."
+url: https://voxelmanip.se
+
+baseurl: /
+
+exclude:
+  - CNAME
+
+permalink: none
+
+sass:
+  style: compressed
+  sourcemap: never
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-seo-tag

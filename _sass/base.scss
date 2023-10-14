@@ -1,0 +1,94 @@
+$link: #cbd35e;
+$grid: #444;
+$bg: #0F0F0F;
+
+// roboto-regular - latin-ext_latin
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Roboto'), // Local font if device has it installed.
+		url('assets/fonts/roboto-v29-latin-ext_latin-regular.woff2') format('woff2');
+}
+
+// roboto-700 - latin-ext_latin
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Roboto Bold'), // Local font if device has it installed.
+		url('assets/fonts/roboto-v29-latin-ext_latin-700.woff2') format('woff2');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $bg;
+	color: #fff;
+	font-size: 14pt;
+	font-family: "Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+}
+
+body, p, li {
+	line-height: 2;
+}
+
+
+/// Links \\\
+
+a {
+	color: $link;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:active {
+		color: lighten($link, 10%);
+	}
+}
+
+
+/// Header tags \\\
+
+h1 { margin: 0; font-size: 1.75em; }
+h2 { font-size: 1.50em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
+
+h1,h2,h3,h4 {
+	border-bottom: 1px solid $grid;
+}
+
+h2,h3,h4 {
+	margin-bottom: 0;
+}
+
+
+header {
+	font-weight: bold;
+	border-bottom: 1px solid $grid;
+	background-color: lighten($bg, 3%);
+
+	.headercontainer {
+		margin: auto;
+		max-width: 1280px;
+		padding: 0px 10px;
+		font-size: 20pt;
+
+		a {
+			color: white;
+		}
+	}
+}
+
+.content {
+	margin: auto;
+	max-width: 1000px;
+	padding: 0px 10px;
+}
