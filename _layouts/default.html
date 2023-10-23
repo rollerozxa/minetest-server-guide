@@ -15,9 +15,17 @@
 		</div>
 	</header>
 
-	<div class="content">
-		{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-		{{ content }}
+	<div class="container">
+		<article>
+			{% if page.title and page.title != "Index page" %}<h1>{{ page.title }}</h1>{% endif %}
+			{{ content }}
+		</article>
 	</div>
+
+	<footer>
+		Content is licensed under CC-BY 4.0
+		&ndash; <a target="_blank" href="{{ site.repo }}">Website source</a>
+		&ndash; <a target="_blank" href="{{ site.repo }}/edit/master/{{ page.path }}">Edit this page</a>
+	</footer>
 </body>
 </html>

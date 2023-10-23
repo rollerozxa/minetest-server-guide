@@ -2,6 +2,8 @@
 title: Index page
 ---
 
+# NOTE: This guide is currently heavily work in progress!
+
 
 
 What would you want to do?

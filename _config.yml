@@ -1,6 +1,8 @@
 title: Minetest Server Hosting Guide
 description: "A guide detailing how to set up a Minetest server, whether it be simply playing with friends or setting up a permanent server."
-url: https://voxelmanip.se
+url: https://mtserverhosting.voxelmanip.se
+
+repo: https://github.com/rollerozxa/minetest-server-guide
 
 baseurl: /
 
