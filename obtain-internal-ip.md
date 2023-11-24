@@ -13,7 +13,7 @@ When connecting to a server over LAN, what you will need to find is the internal
 
 	Your internal IP will be the address listed as "IPv4 Address", and should begin with `192.168.X.X`.
 
-	![](imgs/obtain-internal-ip/windows_1.png)
+	![](imgs/obtain-internal-ip/windows_1.webp)
 
 ## Linux
 1. Open a terminal.
@@ -30,8 +30,8 @@ The appearance of your settings app's interface can vary wildly depending on the
 
 2. Find the currently connected Wi-Fi network, and press on the cogwheel icon.
 
-	![](imgs/obtain-internal-ip/android_1.png)
+	![](imgs/obtain-internal-ip/android_1.webp)
 
 3. Scroll down to the "Network details" section, you should see the IP address your device has.
 
-	![](imgs/obtain-internal-ip/android_2.png)
+	![](imgs/obtain-internal-ip/android_2.webp)
